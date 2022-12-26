@@ -1,0 +1,16 @@
+{
+    "singleQuote": true,
+    "bracketSameLine": true,
+    "importOrder": [
+      "^@angular/(.*)$",
+      "^rxjs/(.*)$",
+      "<THIRD_PARTY_MODULES>",
+      "^@bcgov/(.*)$",
+      "^@core/(.*)$",
+      "^@shared/(.*)$",
+      "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "importOrderParserPlugins": ["javascript", "decorators-legacy"]
+  }
